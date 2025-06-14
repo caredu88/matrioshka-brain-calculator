@@ -8,7 +8,7 @@ This is a science-themed React project focused on stellar physics, thermodynamic
 
 ## 🌌 Live Demo
 
-👉 [matrioshka.vercel.app](https://matrioshka.vercel.app)
+👉 [Matrioshka Brain Calculator](https://matrioshka-brain-calculator.netlify.app/)
 
 ---
 
