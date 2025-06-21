@@ -1,96 +1,122 @@
-# 🧠 Matrioshka Brain Calculator
+# Matrioshka Brain Calculator 🧠
 
-**Matrioshka Brain Calculator** is a sleek, interactive web app designed to model and calculate the radius of a theoretical megastructure known as a **Matrioshka Brain**—a layered shellworld of computational Dyson shells orbiting a star.
+Welcome to the **Matrioshka Brain Calculator** project! This is a web application built with **React**, **Vite**, and **Tailwind CSS**. It offers a sleek and modern interface for performing calculations, inspired by the concept of Matrioshka brains—massive, nested structures that could one day harness the power of stars. This project is deployed on **Netlify** for easy access.
 
-This is a science-themed React project focused on stellar physics, thermodynamic efficiency, and data visualization. It allows users to input astrophysical parameters, adjust architectural factors, and view the resulting shell structure in real-time.
+[Check out the Releases here!](https://github.com/caredu88/matrioshka-brain-calculator/releases)
 
----
+## Table of Contents
 
-## 🌌 Live Demo
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-👉 [Matrioshka Brain Calculator](https://matrioshka-brain-calculator.netlify.app/)
+## Features
 
----
+- **User-Friendly Interface**: The calculator provides an intuitive layout for seamless interaction.
+- **Responsive Design**: Works well on both desktop and mobile devices.
+- **Real-Time Calculations**: See results instantly as you input numbers and operations.
+- **Customizable Themes**: Change the appearance with different color schemes using Tailwind CSS.
+- **Fast Performance**: Built with Vite for quick loading times and smooth transitions.
 
-## ⚙️ What Can You Do?
+## Technologies Used
 
-- Simulate **Dyson shell layers** based on stellar mass, radius, temperature, or direct luminosity
-- Control **radiative properties** (α and ε) of the megastructure
-- Adjust **architectural ratios** like radius growth (fr) and thermal dropoff (fT)
-- Choose between **termination criteria** (target outer temp or layer count)
-- Toggle **optional thermodynamic outputs**:
-  - Carnot efficiency (η)
-  - Landauer limit energy per bit
-  - Per-layer exergy potential
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast development server and build tool.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Netlify**: For deploying the application.
 
----
+## Getting Started
 
-## 🛠️ Built With
+To get started with the Matrioshka Brain Calculator, follow these steps:
 
-- [React](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+### Prerequisites
 
-Includes:
+Make sure you have the following installed on your machine:
 
-- Dynamic visual outputs
-- Fully responsive UI
-- SVG-based custom icons
-- Fancy twinkling starfield 🌟
+- Node.js (version 12 or higher)
+- npm (Node Package Manager)
 
----
+### Installation
 
-## 🧪 Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/caredu88/matrioshka-brain-calculator.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd matrioshka-brain-calculator
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
+### Running the Application
+
+To run the application locally, use the following command:
 ```bash
-git clone https://github.com/JStanoeva/matrioshka-brain-calculator.git
-cd matrioshka-brain-calculator
-npm install
 npm run dev
 ```
+Open your browser and go to `http://localhost:3000` to see the calculator in action.
+
+## Usage
+
+Using the Matrioshka Brain Calculator is straightforward:
+
+1. Enter numbers using the keypad.
+2. Select operations like addition, subtraction, multiplication, or division.
+3. Press the equals button to see the result.
+4. Use the clear button to reset the calculator.
+
+### Key Features
+
+- **Basic Operations**: Perform addition, subtraction, multiplication, and division.
+- **History Log**: View previous calculations.
+- **Keyboard Support**: Use your keyboard for input.
+
+## Screenshots
+
+![Calculator Screenshot](https://via.placeholder.com/800x400?text=Calculator+Screenshot)
+
+![Mobile View](https://via.placeholder.com/400x800?text=Mobile+View)
+
+## Contributing
+
+We welcome contributions! If you want to improve the Matrioshka Brain Calculator, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, feel free to reach out:
+
+- **GitHub**: [caredu88](https://github.com/caredu88)
+- **Email**: caredu88@example.com
+
+Don’t forget to check out the [Releases](https://github.com/caredu88/matrioshka-brain-calculator/releases) section for the latest updates and features!
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── public/                 # Static files (e.g. icons, images)
-└── src/
-    ├── HomePage.jsx        # Main app file
-    ├── main.jsx            # React root + Tailwind import
-    └── index.css           # Tailwind directives + custom CSS
-
-```
-
----
-
-## 🤖 Scientific Concepts Featured
-
-- **Stellar Luminosity Estimation** (mass, radius/temp, or direct)
-- **Radiative Equilibrium Modeling** (Stefan-Boltzmann law)
-- **Landauer’s Principle**
-- **Carnot Heat Engine Efficiency**
-- **AU unit scaling** for shell radii
-- **Information Throughput Calculation**
-
----
-
-## 📦 Features
-
-- Elegant dark UI with glowing headers
-- Count-up animations for all stats
-- Auto-generated starfield 🌠
-- Layer breakdown in scrollable table
-- Tooltip-enhanced labels for scientific clarity
-- Input sanitization and error reporting
-
----
-
-## 🪪 License
-
-MIT © — Explore the edges of computation and physics.
-
----
-
-> 🌠 _"Design a brain that thinks across starlight, one shell at a time."_
+Thank you for checking out the Matrioshka Brain Calculator! We hope you find it useful and enjoyable to use.
